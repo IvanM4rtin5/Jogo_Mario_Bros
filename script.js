@@ -16,7 +16,7 @@ setTimeout(() => {
     const marioPosition = +getComputedStyle(mario).bottom.replace('px', '')
 
         // Ajuste para verificar se a colisão ocorre quando o Mario e o cano se tocam
-    if (pipePosition > 0 && pipePosition < 70 && marioPosition < 90) {
+    if (pipePosition > 0 && pipePosition < 60 && marioPosition < 80) {
 
         pipe.style.animation = 'none';
         pipe.style.left = `${pipePosition}px`;
