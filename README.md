@@ -17,7 +17,12 @@ Um jogo simples onde o Mario precisa pular obstáculos para sobreviver! 🚀
 1. O jogo inicia automaticamente.
 2. Pressione **qualquer tecla** para fazer o Mario pular.
 3. Evite colidir com os canos.
-4. Se bater, o jogo para e aparece a tela de **Game Over**.  
+4. Se bater, o jogo para e aparece a tela de **Game Over**.
+
+## 🔗 Link do Jogo  
+
+Jogue agora: [Mario Jump](https://mario-bros-jogos.netlify.app/) 🎮  
+
 
 ## 📂 Estrutura do Projeto
 
