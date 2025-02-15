@@ -68,3 +68,16 @@ body{
         }
     }
 
+@media (max-width: 768px) {
+    .pipe {
+        width: 50px; /* Reduz o tamanho do cano */
+        animation-duration: 2s; /* Deixa mais lento para facilitar */
+    }
+
+    @keyframes jump {
+        0% { bottom: 0px; }
+        30% { bottom: 150px; } 
+        50% { bottom: 180px; }
+        100% { bottom: 0px; }
+    }
+}
