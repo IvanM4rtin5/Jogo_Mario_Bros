@@ -71,15 +71,15 @@ body{
 @media (max-width: 768px) {
     
 .pipe {
+        margin: 0;
         width: 40px; /* Reduz um pouco o tamanho do cano */
         animation-duration: 2.5s; /* Deixa mais lento para facilitar */
     }
 
     .Mário{
        width: 90px;
+       margin: 0 ;
 
-    }
-        animation-duration: 2s; /* Deixa mais lento para facilitar */
     }
 
     @keyframes jump {
