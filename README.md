@@ -2,7 +2,7 @@
 
 Um jogo simples onde o Mario precisa pular obstáculos para sobreviver! 🚀  
 
-<img src="IMG/mario.gif" alt="Mario Jump Gameplay" width="600">
+<img src="IMG/mario.gif" alt="Mario Jump Gameplay" width="300">
 
 ## 🛠️ Tecnologias Utilizadas  
 
