@@ -70,7 +70,7 @@ body{
 
 @media (max-width: 768px) {
     .pipe {
-        width: 50px; /* Reduz o tamanho do cano */
+        width: 30px; /* Reduz o tamanho do cano */
         animation-duration: 2s; /* Deixa mais lento para facilitar */
     }
 
