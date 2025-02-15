@@ -69,8 +69,11 @@ body{
     }
 
 @media (max-width: 768px) {
-    .pipe {
-        width: 30px; /* Reduz o tamanho do cano */
+    
+.pipe {
+        width: 40px; /* Reduz um pouco o tamanho do cano */
+        animation-duration: 2.5s; /* Deixa mais lento para facilitar */
+    }
 
     .Mário{
        width: 90px;
