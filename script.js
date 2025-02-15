@@ -15,21 +15,21 @@ setTimeout(() => {
     const pipePosition = pipe.offsetLeft;
     const marioPosition = +getComputedStyle(mario).bottom.replace('px', '')
 
-    if(pipePosition <= 95 && pipePosition > 0 && marioPosition < 100){
+        // Ajuste para verificar se a colisão ocorre quando o Mario e o cano se tocam
+    if (pipePosition > 0 && pipePosition < 70 && marioPosition < 90) {
 
-        pipe.style.animation = 'none'
-        pipe.style.Left = `${pipePosition}px`
+        pipe.style.animation = 'none';
+        pipe.style.left = `${pipePosition}px`;
 
-        mario.style.animation = 'none'
-        mario.style.bottom = `${marioPosition}px`
+        mario.style.animation = 'none';
+        mario.style.bottom = `${marioPosition}px`;
 
-        mario.src = './IMG/game-over.png'
-        mario.style.width = '75px'
-        mario.style.marginLeft = '50px'
+        mario.src = './IMG/game-over.png';
+        mario.style.width = '75px';
+        mario.style.marginLeft = '50px';
 
-        clearInterval(loop)
-    }
-    
+        clearInterval(loop);
+    }  
 
 },10) 
 document.addEventListener('keydown', jump);
