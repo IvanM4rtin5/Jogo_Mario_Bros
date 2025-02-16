@@ -39,7 +39,7 @@ Jogue agora: [Mario Jump](https://mario-bros-jogos.netlify.app/) 🎮
 
 1. Baixe ou clone este repositório:  
    ```sh
-   git clone https://github.com/seu-usuario/mario-jump.git
+   git clone https://github.com/IvanM4rtin5/Jogo_Mario_Bros
      ```
 2. Abra o arquivo index.html em seu navegador.
 
